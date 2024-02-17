@@ -91,3 +91,66 @@ body {
   width: 265px;
   z-index: 1;
 }
+.why-spotify {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.why {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1170px;
+}
+.h1-why h1 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+.why img {
+  width: 150px;
+}
+.spotify-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.spotify-cards h1 {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.spotify-cards p {
+  margin: 0%;
+  padding: 0%;
+  line-height: 25px;
+  text-align: center;
+  font-size: 16px;
+  width: 240px;
+}
+.itsfree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background: linear-gradient(
+    0deg,
+    rgba(98, 11, 230, 1) 0%,
+    rgba(176, 35, 195, 1) 100%
+  );
+}
+.itsfree p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: white;
+  padding: 0%;
+  margin: 0%;
+}
