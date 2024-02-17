@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+}
+.nav-link h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  height: 40px;
+}
+.head {
+  height: 600px;
+  background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100%
+      1068px no-repeat,
+    linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head-content {
+  width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head-content-right {
+  flex: 2;
+  color: white;
+  font-family: var(
+    --font-family,
+    CircularSp,
+    CircularSp-Arab,
+    CircularSp-Hebr,
+    CircularSp-Cyrl,
+    CircularSp-Grek,
+    CircularSp-Deva,
+    var(--fallback-fonts, sans-serif)
+  );
+  font-size: 30px;
+  max-width: 653px;
+}
+.head-but {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  height: 45px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.head-content-left {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1.5;
+}
+.mob-frame {
+  position: absolute;
+  left: 365px;
+  bottom: 272px;
+  width: 280px;
+}
+.mob {
+  position: absolute;
+  left: 365px;
+  padding-left: 7px;
+  bottom: 269px;
+  width: 265px;
+  z-index: 1;
+}
