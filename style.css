@@ -199,6 +199,7 @@ footer {
   align-items: flex-start;
   justify-content: space-between;
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
 }
 .foot-up p:hover {
   color: rgb(47, 255, 47);
@@ -274,4 +275,52 @@ footer img {
 }
 .hgead {
   color: #898989;
+}
+.nav-link h1:hover {
+  color: rgb(27, 174, 27);
+}
+.h1-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #c4c4c4;
+  width: 160px;
+}
+.foot-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.foot-down p {
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.down-l {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 580px;
+}
+.down-r {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 580px;
+  justify-content: flex-end;
+}
+.foot-light-up img {
+  padding-right: 7px;
+  width: 12px;
+  opacity: 0.5;
+}
+.foot-light-up {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #898989;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding-top: 130px;
 }
