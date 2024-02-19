@@ -72,15 +72,21 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+.head-but:hover {
+  height: 47px;
+  width: 210px;
+  font-size: 17px;
+}
 .head-content-left {
   display: flex;
   justify-content: flex-start;
   flex: 1.5;
+  overflow: hidden;
 }
 .mob-frame {
   position: absolute;
   left: 365px;
-  bottom: 272px;
+  bottom: 268px;
   width: 280px;
 }
 .mob {
@@ -181,6 +187,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.ready-btn:hover {
+  width: 210px;
+  height: 52px;
+  color: black;
+  font-size: 17px;
 }
 footer {
   display: flex;
