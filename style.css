@@ -372,7 +372,6 @@ footer img {
   width: 10px;
 }
 
-/* OPTIONAL HOVER STATE */
 .faq-drawer__title:hover {
   color: #4e4b52;
 }
@@ -399,4 +398,20 @@ input[type="checkbox"] {
 }
 .faq-drawer__title {
   font-family: Arial, Helvetica, sans-serif;
+}
+.faq-drawer__title:hover {
+  text-decoration: underline;
+  background-color: #dbdbdb13;
+}
+.faq-drawer__content {
+  padding-left: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 500;
+}
+li span {
+  color: rgb(24, 141, 24);
+}
+p span {
+  color: rgb(24, 141, 24);
 }
